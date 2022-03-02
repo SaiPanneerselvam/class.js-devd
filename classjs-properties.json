@@ -1,4 +1,5 @@
 {
   "functions": "transfer()" "jcaptcha()",
+  "js-function-src": "functions.js",
   "js-type": "class"
 }
