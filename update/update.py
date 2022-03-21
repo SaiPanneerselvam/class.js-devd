@@ -2,7 +2,7 @@ import urllib2
 import time
 
 print("Please write the link for the update.")
-print("For more info, go to saicorporation.github.io/answers/3245365 .")
+print("For more info, go to saipanneerselvam.github.io/answers/3245365 .")
 link=input()
 print("Thank you. We will now update Class.js.")
 time.sleep(1)
@@ -30,3 +30,4 @@ while True:
 
 f.close()
 time.sleep(3)
+print("Updating Complete")
