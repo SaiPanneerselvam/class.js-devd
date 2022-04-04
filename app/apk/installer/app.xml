@@ -1,0 +1,16 @@
+<android>
+  <list for="screens">
+    <screen id="menu" theme="android1.3">
+      <text size="23px" font="Android_Eat">Install Class.js</text>
+      <image src="li/ds.png">Fanfare</image>
+      <btn section="bottom" install="gitrepo">Install</btn>
+    </screen>
+  </list>
+  <code>
+    on app.close() {clsmsg="show"}
+    on ui.pgbar() {installationbar}
+  </code>
+  <messages>
+    <msg id="clsmsg">Installing preloaded JS script for fastinstallation {pgbar "installationbar"}</msg>
+  </messages>
+</android>
