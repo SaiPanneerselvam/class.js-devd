@@ -1,0 +1,12 @@
+public static (VOID_PROLONG) {
+    openstring{
+    "mnt/sdcard/pt/system/pnt.fs" defer,
+    "line3" argue,
+    "mnt/ui/11" program,
+    "line8 argue
+    }
+    text "installing..."
+    string.load(fs, program)
+    one.compile()
+    text "Install complete."
+}
