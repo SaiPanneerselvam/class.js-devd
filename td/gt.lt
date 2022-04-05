@@ -1,0 +1,14 @@
+Start LT class
+    Convert {} with !newbreak
+        link "background.gt"
+    Make t As function(t, x())
+        property.create(EventArgs, 1, program, touch)
+        with (background.gt) :
+           vita.profession(asix, 3, i8)
+           not(sys, web, iphone)
+           api.cool "toll" = 1.0
+    End Make
+    While Convert = t
+        src(corelib.dll, class-js.sys)
+    End While
+End LT class
