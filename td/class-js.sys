@@ -1,2 +1,3 @@
 !merge NOTHING
-I.System.Print
+I.System.Print(?.ERROR)
+On ?.ERROR (print random error)
