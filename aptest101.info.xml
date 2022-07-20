@@ -1,0 +1,8 @@
+<ap>
+  <aptests>
+    <aptestresults>
+      <aptestresult date="timestamp(7/20/22)" mark="Good" websiteconnectivity="Fine" speed="OK" computer="computerinfo(name=DESKTOP-GQHEU8C, cpu=IntelCeleron(R)J425@2.00GHz)"/>
+      <aptestresult date="timestamp(5/2/15)" mark="Fine" websiteconnectivity="Fine" speed="Bad" computer=computerinfo_simple(name=DesktopPC120392, cpu=IntelItanium(R))/>
+    </aptestresults>
+  </aptests>
+</ap>
