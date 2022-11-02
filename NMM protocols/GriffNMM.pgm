@@ -1,0 +1,9 @@
+> ? griffworks (C) 2013 NMM patch build 183.21.86 updated last 2015 ?
+paiger.Script(none)
+advertise(N?A)
+if n = userinput of (all).tuple show do <<
+place(univa).nmm = upload
+>>
+define log as command <when-termused: open publicvariable log as listof (data) +_c , add _self to uri>
+if user_exception = error (any) do <<
+log(user_exception.error.as(str))
