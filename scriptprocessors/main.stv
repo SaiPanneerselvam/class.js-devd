@@ -1,0 +1,12 @@
+doctype = STVK PROCESSING LANGUAGE;
+openjson = get.list{
+  "scripts find": "run.stv scripts /f all",
+  "datalist": "settype = repo prog; deft repo query /all --findsign;"
+  }
+on run of file(//main///) do job jub()
+jub open
+  () jub of vars(all) loading jub as config file
+  using plists as ATO  open using
+  sda dev
+  close using
+jub close
