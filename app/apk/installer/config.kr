@@ -1,5 +1,0 @@
-fxdt default(app.xml)
-case appintegrations-xml = app.close() Then
-    nextime.load
-        default(fastinstaller.androidapp.gt)
-end case
